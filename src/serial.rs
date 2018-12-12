@@ -5,8 +5,8 @@ use hal;
 use hal::prelude::*;
 use nb;
 
-use gpio::gpio::PIN;
-use gpio::{Floating, Input, Output, PushPull};
+use crate::gpio::gpio::PIN;
+use crate::gpio::{Floating, Input, Output, PushPull};
 use nrf51::UART0;
 use void::Void;
 

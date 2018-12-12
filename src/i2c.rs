@@ -1,5 +1,5 @@
-use gpio::gpio::PIN;
-use gpio::{Input, OpenDrain};
+use crate::gpio::gpio::PIN;
+use crate::gpio::{Input, OpenDrain};
 use nrf51::twi0::frequency;
 use nrf51::TWI1;
 
